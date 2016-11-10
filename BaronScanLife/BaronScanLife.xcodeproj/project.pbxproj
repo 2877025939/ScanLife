@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27005B1C1DD4189B00075F1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27005B1B1DD4189B00075F1F /* main.m */; };
+		27005B1F1DD4189B00075F1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27005B1E1DD4189B00075F1F /* AppDelegate.m */; };
+		27005B271DD4189B00075F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27005B261DD4189B00075F1F /* Assets.xcassets */; };
+		27005B2A1DD4189B00075F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27005B281DD4189B00075F1F /* LaunchScreen.storyboard */; };
+		27005B351DD4189B00075F1F /* BaronScanLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27005B341DD4189B00075F1F /* BaronScanLifeTests.m */; };
+		27005B401DD4189B00075F1F /* BaronScanLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27005B3F1DD4189B00075F1F /* BaronScanLifeUITests.m */; };
+		27005B541DD419D700075F1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27005B511DD419D700075F1F /* ViewController.m */; };
+		27005B551DD419D700075F1F /* ScanLifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27005B531DD419D700075F1F /* ScanLifeViewController.m */; };
+		27005CB41DD41DBE00075F1F /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 27005CB11DD41DBE00075F1F /* UITableView+SDAutoTableViewCellHeight.m */; };
+		27005CB51DD41DBE00075F1F /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 27005CB31DD41DBE00075F1F /* UIView+SDAutoLayout.m */; };
+		27005CB91DD4214000075F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27005CB81DD4214000075F1F /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27005B311DD4189B00075F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27005B0F1DD4189B00075F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27005B161DD4189B00075F1F;
+			remoteInfo = BaronScanLife;
+		};
+		27005B3C1DD4189B00075F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27005B0F1DD4189B00075F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27005B161DD4189B00075F1F;
+			remoteInfo = BaronScanLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27005B171DD4189B00075F1F /* BaronScanLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaronScanLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27005B1B1DD4189B00075F1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27005B1D1DD4189B00075F1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27005B1E1DD4189B00075F1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27005B261DD4189B00075F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27005B291DD4189B00075F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27005B2B1DD4189B00075F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27005B301DD4189B00075F1F /* BaronScanLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaronScanLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27005B341DD4189B00075F1F /* BaronScanLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaronScanLifeTests.m; sourceTree = "<group>"; };
+		27005B361DD4189B00075F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27005B3B1DD4189B00075F1F /* BaronScanLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaronScanLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27005B3F1DD4189B00075F1F /* BaronScanLifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaronScanLifeUITests.m; sourceTree = "<group>"; };
+		27005B411DD4189B00075F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27005B501DD419D700075F1F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27005B511DD419D700075F1F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27005B521DD419D700075F1F /* ScanLifeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanLifeViewController.h; sourceTree = "<group>"; };
+		27005B531DD419D700075F1F /* ScanLifeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanLifeViewController.m; sourceTree = "<group>"; };
+		27005CAF1DD41DBE00075F1F /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
+		27005CB01DD41DBE00075F1F /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		27005CB11DD41DBE00075F1F /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		27005CB21DD41DBE00075F1F /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		27005CB31DD41DBE00075F1F /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		27005CB81DD4214000075F1F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27005B141DD4189B00075F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27005B2D1DD4189B00075F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27005B381DD4189B00075F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27005B0E1DD4189B00075F1F = {
+			isa = PBXGroup;
+			children = (
+				27005B191DD4189B00075F1F /* BaronScanLife */,
+				27005B331DD4189B00075F1F /* BaronScanLifeTests */,
+				27005B3E1DD4189B00075F1F /* BaronScanLifeUITests */,
+				27005B181DD4189B00075F1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27005B181DD4189B00075F1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27005B171DD4189B00075F1F /* BaronScanLife.app */,
+				27005B301DD4189B00075F1F /* BaronScanLifeTests.xctest */,
+				27005B3B1DD4189B00075F1F /* BaronScanLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27005B191DD4189B00075F1F /* BaronScanLife */ = {
+			isa = PBXGroup;
+			children = (
+				27005B1D1DD4189B00075F1F /* AppDelegate.h */,
+				27005B1E1DD4189B00075F1F /* AppDelegate.m */,
+				27005B501DD419D700075F1F /* ViewController.h */,
+				27005B511DD419D700075F1F /* ViewController.m */,
+				27005CB81DD4214000075F1F /* Main.storyboard */,
+				27005B521DD419D700075F1F /* ScanLifeViewController.h */,
+				27005CAE1DD41DBE00075F1F /* SDAutoLayout */,
+				27005B531DD419D700075F1F /* ScanLifeViewController.m */,
+				27005B261DD4189B00075F1F /* Assets.xcassets */,
+				27005B281DD4189B00075F1F /* LaunchScreen.storyboard */,
+				27005B2B1DD4189B00075F1F /* Info.plist */,
+				27005B1A1DD4189B00075F1F /* Supporting Files */,
+			);
+			path = BaronScanLife;
+			sourceTree = "<group>";
+		};
+		27005B1A1DD4189B00075F1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27005B1B1DD4189B00075F1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27005B331DD4189B00075F1F /* BaronScanLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				27005B341DD4189B00075F1F /* BaronScanLifeTests.m */,
+				27005B361DD4189B00075F1F /* Info.plist */,
+			);
+			path = BaronScanLifeTests;
+			sourceTree = "<group>";
+		};
+		27005B3E1DD4189B00075F1F /* BaronScanLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27005B3F1DD4189B00075F1F /* BaronScanLifeUITests.m */,
+				27005B411DD4189B00075F1F /* Info.plist */,
+			);
+			path = BaronScanLifeUITests;
+			sourceTree = "<group>";
+		};
+		27005CAE1DD41DBE00075F1F /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				27005CAF1DD41DBE00075F1F /* SDAutoLayout.h */,
+				27005CB01DD41DBE00075F1F /* UITableView+SDAutoTableViewCellHeight.h */,
+				27005CB11DD41DBE00075F1F /* UITableView+SDAutoTableViewCellHeight.m */,
+				27005CB21DD41DBE00075F1F /* UIView+SDAutoLayout.h */,
+				27005CB31DD41DBE00075F1F /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27005B161DD4189B00075F1F /* BaronScanLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27005B441DD4189B00075F1F /* Build configuration list for PBXNativeTarget "BaronScanLife" */;
+			buildPhases = (
+				27005B131DD4189B00075F1F /* Sources */,
+				27005B141DD4189B00075F1F /* Frameworks */,
+				27005B151DD4189B00075F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaronScanLife;
+			productName = BaronScanLife;
+			productReference = 27005B171DD4189B00075F1F /* BaronScanLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27005B2F1DD4189B00075F1F /* BaronScanLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27005B471DD4189B00075F1F /* Build configuration list for PBXNativeTarget "BaronScanLifeTests" */;
+			buildPhases = (
+				27005B2C1DD4189B00075F1F /* Sources */,
+				27005B2D1DD4189B00075F1F /* Frameworks */,
+				27005B2E1DD4189B00075F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27005B321DD4189B00075F1F /* PBXTargetDependency */,
+			);
+			name = BaronScanLifeTests;
+			productName = BaronScanLifeTests;
+			productReference = 27005B301DD4189B00075F1F /* BaronScanLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27005B3A1DD4189B00075F1F /* BaronScanLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27005B4A1DD4189B00075F1F /* Build configuration list for PBXNativeTarget "BaronScanLifeUITests" */;
+			buildPhases = (
+				27005B371DD4189B00075F1F /* Sources */,
+				27005B381DD4189B00075F1F /* Frameworks */,
+				27005B391DD4189B00075F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27005B3D1DD4189B00075F1F /* PBXTargetDependency */,
+			);
+			name = BaronScanLifeUITests;
+			productName = BaronScanLifeUITests;
+			productReference = 27005B3B1DD4189B00075F1F /* BaronScanLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27005B0F1DD4189B00075F1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = anan;
+				TargetAttributes = {
+					27005B161DD4189B00075F1F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7JARBJJ2T9;
+						ProvisioningStyle = Automatic;
+					};
+					27005B2F1DD4189B00075F1F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27005B161DD4189B00075F1F;
+					};
+					27005B3A1DD4189B00075F1F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27005B161DD4189B00075F1F;
+					};
+				};
+			};
+			buildConfigurationList = 27005B121DD4189B00075F1F /* Build configuration list for PBXProject "BaronScanLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27005B0E1DD4189B00075F1F;
+			productRefGroup = 27005B181DD4189B00075F1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27005B161DD4189B00075F1F /* BaronScanLife */,
+				27005B2F1DD4189B00075F1F /* BaronScanLifeTests */,
+				27005B3A1DD4189B00075F1F /* BaronScanLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27005B151DD4189B00075F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27005CB91DD4214000075F1F /* Main.storyboard in Resources */,
+				27005B2A1DD4189B00075F1F /* LaunchScreen.storyboard in Resources */,
+				27005B271DD4189B00075F1F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27005B2E1DD4189B00075F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27005B391DD4189B00075F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27005B131DD4189B00075F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27005B541DD419D700075F1F /* ViewController.m in Sources */,
+				27005B1F1DD4189B00075F1F /* AppDelegate.m in Sources */,
+				27005CB51DD41DBE00075F1F /* UIView+SDAutoLayout.m in Sources */,
+				27005B1C1DD4189B00075F1F /* main.m in Sources */,
+				27005B551DD419D700075F1F /* ScanLifeViewController.m in Sources */,
+				27005CB41DD41DBE00075F1F /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27005B2C1DD4189B00075F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27005B351DD4189B00075F1F /* BaronScanLifeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27005B371DD4189B00075F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27005B401DD4189B00075F1F /* BaronScanLifeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27005B321DD4189B00075F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27005B161DD4189B00075F1F /* BaronScanLife */;
+			targetProxy = 27005B311DD4189B00075F1F /* PBXContainerItemProxy */;
+		};
+		27005B3D1DD4189B00075F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27005B161DD4189B00075F1F /* BaronScanLife */;
+			targetProxy = 27005B3C1DD4189B00075F1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27005B281DD4189B00075F1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27005B291DD4189B00075F1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27005B421DD4189B00075F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27005B431DD4189B00075F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27005B451DD4189B00075F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7JARBJJ2T9;
+				INFOPLIST_FILE = BaronScanLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.an.BaronScanLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27005B461DD4189B00075F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7JARBJJ2T9;
+				INFOPLIST_FILE = BaronScanLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.an.BaronScanLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27005B481DD4189B00075F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BaronScanLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.an.BaronScanLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaronScanLife.app/BaronScanLife";
+			};
+			name = Debug;
+		};
+		27005B491DD4189B00075F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BaronScanLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.an.BaronScanLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaronScanLife.app/BaronScanLife";
+			};
+			name = Release;
+		};
+		27005B4B1DD4189B00075F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BaronScanLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.an.BaronScanLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BaronScanLife;
+			};
+			name = Debug;
+		};
+		27005B4C1DD4189B00075F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BaronScanLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.an.BaronScanLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BaronScanLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27005B121DD4189B00075F1F /* Build configuration list for PBXProject "BaronScanLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27005B421DD4189B00075F1F /* Debug */,
+				27005B431DD4189B00075F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27005B441DD4189B00075F1F /* Build configuration list for PBXNativeTarget "BaronScanLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27005B451DD4189B00075F1F /* Debug */,
+				27005B461DD4189B00075F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27005B471DD4189B00075F1F /* Build configuration list for PBXNativeTarget "BaronScanLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27005B481DD4189B00075F1F /* Debug */,
+				27005B491DD4189B00075F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27005B4A1DD4189B00075F1F /* Build configuration list for PBXNativeTarget "BaronScanLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27005B4B1DD4189B00075F1F /* Debug */,
+				27005B4C1DD4189B00075F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27005B0F1DD4189B00075F1F /* Project object */;
+}
