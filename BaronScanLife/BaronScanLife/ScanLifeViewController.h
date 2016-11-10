@@ -12,7 +12,6 @@
 
 @property (nonatomic,strong) UIViewController *controller;
 
-@property (nonatomic, copy) void (^ScanCancleBlock) (ScanLifeViewController *);//扫描取消
 @property (nonatomic, copy) void (^ScanSuncessBlock) (ScanLifeViewController *,NSString *);//扫描结果
 
 

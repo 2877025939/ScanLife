@@ -28,6 +28,7 @@
     
     //扫描二维码
     ScanLifeViewController *scanfLiftVC = [[ScanLifeViewController alloc]init];
+    UINavigationController * scanfVC = [[UINavigationController alloc]initWithRootViewController:scanfLiftVC];
     
     scanfLiftVC.ScanSuncessBlock = ^(ScanLifeViewController *scanfLiftVC,NSString *qrString){
 
@@ -36,12 +37,8 @@
         [scanfLiftVC dismissViewControllerAnimated:NO completion:nil];
     };
     
-    scanfLiftVC.ScanCancleBlock = ^(ScanLifeViewController *scanfLiftVC){
-        
-        [scanfLiftVC dismissViewControllerAnimated:NO completion:nil];
-    };
     
-    [weakSelf presentViewController:scanfLiftVC animated:YES completion:nil];
+    [weakSelf presentViewController:scanfVC animated:YES completion:nil];
     
 }
 
