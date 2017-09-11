@@ -6,4 +6,8 @@
 
 2.布局使用SDAutoLayout，
 
-3.使用中若干出现问题，可与我联系2877025939@qq.com
+3.使用中若干出现问题，可与我联系
+
+邮箱：peiliancoding@gmail.com
+
+QQ ：2877025939
