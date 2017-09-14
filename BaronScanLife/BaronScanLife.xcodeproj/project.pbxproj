@@ -232,7 +232,7 @@
 				TargetAttributes = {
 					27005B161DD4189B00075F1F = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 7JARBJJ2T9;
+						DevelopmentTeam = HWQF636ATC;
 						ProvisioningStyle = Automatic;
 					};
 					27005B2F1DD4189B00075F1F = {
@@ -445,11 +445,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7JARBJJ2T9;
+				DEVELOPMENT_TEAM = HWQF636ATC;
 				INFOPLIST_FILE = BaronScanLife/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.an.BaronScanLife;
+				PRODUCT_BUNDLE_IDENTIFIER = com.an.BaronScanLifehh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -458,11 +458,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7JARBJJ2T9;
+				DEVELOPMENT_TEAM = HWQF636ATC;
 				INFOPLIST_FILE = BaronScanLife/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.an.BaronScanLife;
+				PRODUCT_BUNDLE_IDENTIFIER = com.an.BaronScanLifehh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
