@@ -232,9 +232,10 @@ static const float kLineMinY = 185;
         [self stopSYQRCodeReading];
         AVMetadataMachineReadableCodeObject *obj = metadataObjects[0];
         if (self.ScanSuncessBlock) {
-            self.ScanSuncessBlock(self,obj.stringValue);
+            self.ScanSuncessBlock(obj.stringValue);
         }
         
+        [self dismissViewControllerAnimated:NO completion:nil];
     }
     else{
         

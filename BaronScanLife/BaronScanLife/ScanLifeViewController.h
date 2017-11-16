@@ -12,7 +12,7 @@
 
 @property (nonatomic,strong) UIViewController *controller;
 
-@property (nonatomic, copy) void (^ScanSuncessBlock) (ScanLifeViewController *,NSString *);//扫描结果
+@property (nonatomic, copy) void (^ScanSuncessBlock) (NSString *);//扫描结果
 
 
 

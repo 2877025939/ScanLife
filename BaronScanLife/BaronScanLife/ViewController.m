@@ -24,21 +24,21 @@
 
 - (IBAction)scanClick:(id)sender {
     
-    __weak ViewController *weakSelf = self;
+    
     
     //扫描二维码
     ScanLifeViewController *scanfLiftVC = [[ScanLifeViewController alloc]init];
     UINavigationController * scanfVC = [[UINavigationController alloc]initWithRootViewController:scanfLiftVC];
     
-    scanfLiftVC.ScanSuncessBlock = ^(ScanLifeViewController *scanfLiftVC,NSString *qrString){
+    scanfLiftVC.ScanSuncessBlock = ^(NSString *qrString){
 
         self.lable.text= qrString;
 
-        [scanfLiftVC dismissViewControllerAnimated:NO completion:nil];
+        
     };
     
     
-    [weakSelf presentViewController:scanfVC animated:YES completion:nil];
+    [self presentViewController:scanfVC animated:YES completion:nil];
     
 }
 
